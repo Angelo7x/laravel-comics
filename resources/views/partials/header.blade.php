@@ -24,7 +24,7 @@
                    <li><a href="#">FANS</a></li>
                    <li><a href="#">NEWS</a></li>
                    <li><a href="#">SHOP</a></li>
-                   <li><a href="#">Search</a></li>
+                   <li><input type="text" name="cerca" id="search" placeholder="Search"></li>
                 </ul>
             </div>
         </div>

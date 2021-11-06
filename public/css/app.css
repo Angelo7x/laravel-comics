@@ -19,12 +19,11 @@ header .header_top {
 header .header_top .container {
   color: #fff;
   padding: 5px;
-  background-color: blue;
   display: flex;
   justify-content: right;
 }
 header .header_top .container .header_top_text span {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 header .header_top .container .header_top_text a {
   text-decoration: none;
@@ -33,9 +32,6 @@ header .header_top .container .header_top_text a {
 header .header_top .container .header_top_text a i {
   font-size: 20px;
   margin-left: 4px;
-}
-header nav {
-  padding: 20px;
 }
 header nav .container {
   display: flex;
@@ -49,14 +45,36 @@ header nav .container .header_right ul {
   list-style: none;
   display: flex;
 }
+header nav .container .header_right ul #search {
+  padding-left: 60px;
+  border: transparent;
+  border-bottom: 3px solid #0282f9;
+  display: inline-block;
+  text-align: right;
+  color: black;
+  margin-top: 52px;
+}
+header nav .container .header_right ul #search ::-moz-placeholder {
+  color: black;
+}
+header nav .container .header_right ul #search :-ms-input-placeholder {
+  color: black;
+}
+header nav .container .header_right ul #search ::placeholder {
+  color: black;
+}
 header nav .container .header_right ul a {
   text-decoration: none;
   display: inline-block;
-  padding: 0 15px;
+  padding: 50px 15px;
   color: #000;
+  text-align: center;
 }
 header nav .container .header_right ul a.active {
-  border-bottom: 2px solid #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
+header nav .container .header_right ul a:hover {
+  border-bottom: 5px solid #0282f9;
 }
 header .header_hero {
   background-image: url("../images/jumbotron.jpg");
@@ -65,35 +83,117 @@ header .header_hero {
   background-repeat: no-repeat;
 }
 
-section {
+.fumetti {
   background-color: #1c1c1c;
 }
-section .container {
+.fumetti .container {
   text-align: center;
 }
-section .container ul {
+.fumetti .container ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-section .container ul li {
+.fumetti .container ul li {
   width: 16.6666666667%;
   padding-right: 30px;
 }
-section .container ul li a {
+.fumetti .container ul li a {
   text-decoration: none;
   color: white;
 }
-section .container ul li a img {
+.fumetti .container ul li a img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 120px;
+  width: 80%;
   margin-top: 30px;
 }
-section .container button {
+.fumetti .container button {
   color: #fff;
   background-color: #0282f9;
   padding: 5px 15px;
   border: none;
   margin: 30px 0;
+}
+.fumetti .container button:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.links {
+  background-color: #0282f9;
+}
+.links .container ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.links .container ul li {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+.links .container ul li a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+.links .container ul li img {
+  width: 100px;
+  padding: 10px;
+}
+
+.footer-top {
+  background-image: url("../images/footer-bg.jpg");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  background-image: url("../images/dc-logo-bg.png");
+  height: 500px;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.footer-bot {
+  height: 100px;
+  background-color: #303030;
+}
+.footer-bot .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bot .container .btn-left {
+  line-height: 100px;
+}
+.footer-bot .container .btn-left .btn a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 15px;
+  background-color: #303030;
+}
+
+.socials-right a {
+  text-decoration: none;
+}
+.socials-right h3 {
+  color: #0282f9;
+}
+.socials-right ul {
+  list-style: none;
+  line-height: 100px;
+}
+.socials-right ul li {
+  display: inline-block;
+  padding: 10px;
 }

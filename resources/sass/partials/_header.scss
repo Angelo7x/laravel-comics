@@ -4,12 +4,11 @@ header {
         .container {
             color: #fff;
             padding: 5px;
-            background-color: blue;
             display: flex;
             justify-content: right;
             .header_top_text {
                 span {
-                    padding-right: 15px;
+                    padding-right: 25px;
                 }
 
                 a {
@@ -25,7 +24,6 @@ header {
         }
     }
     nav {
-        padding: 20px;
         .container {
             display: flex;
             justify-content: space-around;
@@ -37,13 +35,30 @@ header {
                 ul {
                     list-style: none;
                     display: flex;
+                    #search {
+                        padding-left: 60px;
+                        border: transparent;
+                        border-bottom: 3px solid $primaryColor;
+                        display: inline-block;
+                        text-align: right;
+                        color: black;
+                        margin-top: 52px;
+                    ::placeholder {
+                            color: black;
+                            // opacity: 1;
+                        }
+                    }
                     a {
                         text-decoration: none;
                         display: inline-block;
-                        padding: 0 15px;
+                        padding: 50px 15px;
                         color: #000;
+                        text-align: center;
                         &.active {
-                            border-bottom: 2px solid $primaryColor;
+                            border-bottom: 5px solid $primaryColor;
+                        }
+                        &:hover {
+                            border-bottom: 5px solid $primaryColor;
                         }
                     }
                 }
