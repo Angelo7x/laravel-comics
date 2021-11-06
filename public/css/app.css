@@ -64,3 +64,36 @@ header .header_hero {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+section {
+  background-color: #1c1c1c;
+}
+section .container {
+  text-align: center;
+}
+section .container ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+section .container ul li {
+  width: 16.6666666667%;
+  padding-right: 30px;
+}
+section .container ul li a {
+  text-decoration: none;
+  color: white;
+}
+section .container ul li a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 120px;
+  margin-top: 30px;
+}
+section .container button {
+  color: #fff;
+  background-color: #0282f9;
+  padding: 5px 15px;
+  border: none;
+  margin: 30px 0;
+}
