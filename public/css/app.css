@@ -1,6 +1,66 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap);* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+header .header_top {
+  background-color: #0282f9;
+}
+header .header_top .container {
+  color: #fff;
+  padding: 5px;
+  background-color: blue;
+  display: flex;
+  justify-content: right;
+}
+header .header_top .container .header_top_text span {
+  padding-right: 15px;
+}
+header .header_top .container .header_top_text a {
+  text-decoration: none;
+  color: #fff;
+}
+header .header_top .container .header_top_text a i {
+  font-size: 20px;
+  margin-left: 4px;
+}
+header nav {
+  padding: 20px;
+}
+header nav .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .container .header_left {
+  margin-right: 70px;
+}
+header nav .container .header_right ul {
+  list-style: none;
+  display: flex;
+}
+header nav .container .header_right ul a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 15px;
+  color: #000;
+}
+header nav .container .header_right ul a.active {
+  border-bottom: 2px solid #0282f9;
+}
+header .header_hero {
+  background-image: url("../images/jumbotron.jpg");
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
