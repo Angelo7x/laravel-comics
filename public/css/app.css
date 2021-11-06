@@ -186,6 +186,13 @@ header .header_hero {
 .socials-right a {
   text-decoration: none;
 }
+.socials-right a img {
+  overflow: hidden;
+}
+.socials-right a img:hover {
+  background-color: white;
+  overflow: hidden;
+}
 .socials-right h3 {
   color: #0282f9;
 }

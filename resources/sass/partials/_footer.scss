@@ -41,16 +41,24 @@
   .socials-right {
     a {
       text-decoration: none;
+      img {
+
+        overflow: hidden;
+        &:hover {
+            background-color: white;
+            overflow: hidden;
+        }
+      }
     }
     h3 {
-      color: #0282f9;
+        color: #0282f9;
     }
     ul {
-      list-style: none;
-      line-height: 100px;
-      li {
-        display: inline-block;
-        padding: 10px;
+        list-style: none;
+        line-height: 100px;
+        li {
+            display: inline-block;
+            padding: 10px;
       }
     }
   }

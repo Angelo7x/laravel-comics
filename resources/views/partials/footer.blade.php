@@ -13,11 +13,11 @@
         <div class="socials-right">
           <ul>
             <li><a href="#"><h3>FOLLOW US</h3></a></li>
-            <li><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></li>
-            <li><a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a></li>
-            <li><a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a></li>
-            <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
-            <li><a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a></li>
+            <li><a href="#"><img src="{{asset('./images/footer-facebook.png')}}" alt=""></a></li>
+            <li><a href="#"><img src="{{asset('./images/footer-twitter.png')}}" alt=""></a></li>
+            <li><a href="#"><img src="{{asset('./images/footer-youtube.png')}}" alt=""></a></li>
+            <li><a href="#"><img src="{{asset('./images/footer-pinterest.png')}}" alt=""></a></li>
+            <li><a href="#"><img src="{{asset('./images/footer-periscope.png')}}" alt=""></a></li>
           </ul>
         </div>
       </div>
